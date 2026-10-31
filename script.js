@@ -104,8 +104,7 @@
       link.rel = "noopener noreferrer";
       link.dataset.store = "apple";
       link.innerHTML =
-        '<span class="store-kicker">Disponibile su</span>' +
-        '<span class="store-name">App Store</span>' +
+        '<img src="assets/images/badges/app-store-it.svg" width="120" height="40" alt="Scarica su App Store">' +
         '<span class="visually-hidden"> (si apre in una nuova scheda)</span>';
       node.replaceWith(link);
     });
