@@ -33,15 +33,13 @@ Dopo la pubblicazione, se vuoi i metadati social con immagine, aggiungi in `inde
 
 ## App Store
 
-In `site-config.js`, `appStoreUrl` è vuoto. Il pulsante resta spento e non punta a un indirizzo inventato.
-
-Quando hai il link ufficiale:
+In `site-config.js`, `appStoreUrl` è l’indirizzo ufficiale:
 
 ```js
-appStoreUrl: "https://apps.apple.com/....",
+appStoreUrl: "https://apps.apple.com/it/app/my-bike-garage/id6819202381",
 ```
 
-Il pulsante diventa un collegamento solo se l’indirizzo inizia con `https://`.
+I pulsanti della pagina puntano a questo indirizzo. Restano spenti solo se il valore è vuoto o non inizia con `https://`.
 
 ## Screenshot
 

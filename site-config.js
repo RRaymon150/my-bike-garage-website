@@ -5,13 +5,13 @@
   Esempio corretto: "assets/images/screenshots/garage.png"
   Così la pagina funziona sia in locale sia su GitHub Pages in una sottocartella.
 
-  appStoreUrl resta vuoto finché non esiste l'indirizzo ufficiale dell'App Store.
-  Un testo vuoto tiene il pulsante spento: non viene inventato nessun link.
+  appStoreUrl è l'indirizzo ufficiale dell'App Store.
+  Deve iniziare con https://, altrimenti il pulsante resta spento.
 */
 window.SITE = {
   playStoreUrl:
     "https://play.google.com/store/apps/details?id=com.hopeandtrust.mybikegarage",
-  appStoreUrl: "",
+  appStoreUrl: "https://apps.apple.com/it/app/my-bike-garage/id6819202381",
   privacyUrl: "https://rraymon150.github.io/my-bike-garage-privacy/",
   email: "hopeandtrust.dev@gmail.com",
   screenshots: [
