@@ -513,6 +513,87 @@ a.store:hover {
   margin-inline: auto;
 }
 
+.social-follow {
+  margin-top: 2.4rem;
+}
+
+.social-follow h2 {
+  margin-bottom: 0.85rem;
+  font-size: 1.15rem;
+}
+
+.social-links,
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-links {
+  justify-content: center;
+}
+
+.social-links a,
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  text-decoration: none;
+}
+
+.social-links a {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: white;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.social-links a:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.social-links svg,
+.footer-social svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.social-links svg circle:last-child,
+.footer-social svg circle:last-child {
+  fill: currentColor;
+  stroke: none;
+}
+
+.footer-social a {
+  width: 2.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  color: white;
+}
+
+.footer-social a:hover {
+  border-color: white;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.footer-social a:focus-visible {
+  outline-color: white;
+}
+
 .site-footer {
   padding: 2.2rem 0 2.6rem;
   background: var(--blue-dark);
