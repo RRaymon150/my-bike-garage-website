@@ -16,13 +16,16 @@
     }
 
     var label = button.querySelector(".visually-hidden");
-    var desktop = window.matchMedia("(min-width: 761px)");
+    var desktop = window.matchMedia("(min-width: 901px)");
 
     function setOpen(open) {
       menu.classList.toggle("is-open", open);
       button.setAttribute("aria-expanded", open ? "true" : "false");
       if (label) {
         label.textContent = open ? label.getAttribute("data-close-label") : label.getAttribute("data-open-label");
+      }
+      if (open) {
+        document.dispatchEvent(new CustomEvent("mbg-nav-open"));
       }
     }
 
@@ -59,6 +62,10 @@
     if (desktop.addEventListener) {
       desktop.addEventListener("change", onDesktopChange);
     }
+
+    document.addEventListener("mbg-lang-open", function () {
+      setOpen(false);
+    });
   }
 
   function setupContacts(config) {
@@ -92,21 +99,10 @@
       return;
     }
 
-    document.querySelectorAll("[data-download-note]").forEach(function (note) {
-      note.textContent = "Scegli lo store del tuo telefono.";
-    });
-
     document.querySelectorAll("[data-store='apple']").forEach(function (node) {
-      var link = document.createElement("a");
-      link.className = "store";
-      link.href = apple;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.dataset.store = "apple";
-      link.innerHTML =
-        '<img src="assets/images/badges/app-store-it.svg" width="120" height="40" alt="Scarica su App Store">' +
-        '<span class="visually-hidden"> (si apre in una nuova scheda)</span>';
-      node.replaceWith(link);
+      if (node.tagName === "A") {
+        node.href = apple;
+      }
     });
   }
 
@@ -126,10 +122,11 @@
     var added = 0;
     items.forEach(function (item) {
       var src = safeImageSrc(item && item.src);
-      var alt = cleanText(item && item.alt);
-      if (!src || !alt) {
+      var fallbackAlt = cleanText(item && item.alt);
+      if (!src || !fallbackAlt) {
         return;
       }
+      var alt = (window.SiteI18n && window.SiteI18n.shotAlt(src)) || fallbackAlt;
 
       var button = document.createElement("button");
       button.type = "button";
@@ -201,7 +198,9 @@
       var trackRect = track.getBoundingClientRect();
       var firstRect = slides[0].getBoundingClientRect();
       var lastRect = slides[slides.length - 1].getBoundingClientRect();
-      count.textContent = "Immagine " + (index + 1) + " di " + slides.length;
+      count.textContent = window.SiteI18n
+        ? window.SiteI18n.galleryCount(index + 1, slides.length)
+        : "Immagine " + (index + 1) + " di " + slides.length;
       prev.disabled = firstRect.left >= trackRect.left - 2;
       next.disabled = lastRect.right <= trackRect.right + 2;
     }
@@ -242,6 +241,32 @@
         go(-1);
       }
     });
+
+    if (window.SiteI18n) {
+      window.SiteI18n.onChange(function () {
+        slideList().forEach(function (button) {
+          var image = button.querySelector("img");
+          if (!image) {
+            return;
+          }
+          var nextAlt = window.SiteI18n.shotAlt(image.getAttribute("src"));
+          if (!nextAlt) {
+            return;
+          }
+          image.alt = nextAlt;
+          button.setAttribute("aria-label", nextAlt);
+        });
+        var dialog = document.getElementById("lightbox");
+        var dialogImage = dialog ? dialog.querySelector("img") : null;
+        if (dialogImage && dialogImage.getAttribute("src")) {
+          var dialogAlt = window.SiteI18n.shotAlt(dialogImage.getAttribute("src"));
+          if (dialogAlt) {
+            dialogImage.alt = dialogAlt;
+          }
+        }
+        refresh();
+      });
+    }
 
     refresh();
   }
