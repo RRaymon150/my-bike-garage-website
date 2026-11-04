@@ -126,11 +126,10 @@
       "footer.privacy": "Privacy Policy",
       "lightbox.label": "Screenshot ingrandito",
       "lightbox.close": "Chiudi",
-      "shots.garage": "Schermata Garage: la bici Raymon Trailray 150, E-bike, con 50 Km e stato In strada",
-      "shots.riepilogo": "Schermata Riepilogo: spese per tipologia, totale 280 euro e distanza percorsa 50 Km",
-      "shots.spese": "Schermata Spese: camera d'aria, polizza bici, casco e sellino",
-      "shots.pneumatici": "Schermata Pneumatici: Vittoria Mazza Enduro, dimensione 29 per 2.4, 50 Km, in uso",
-      "shots.officina": "Schermata Officina: coppie di serraggio, sospensioni, tagliandi, motore e batteria, prodotti preferiti, guasti e problemi"
+      "shots.garage": "Schermata Garage: la bici Raymon Trailray 150, E-bike, con 401 Km e stato In strada",
+      "shots.riepilogo": "Schermata Riepilogo: spese per tipologia, totale 440,78 euro e distanza percorsa 401 Km",
+      "shots.spese": "Schermata Spese: step gomme Magic, pedali SPD, siringa per lattice, liquido antiforatura e adattatore pompa",
+      "shots.officina": "Schermata Officina: coppie di serraggio, sospensioni, ciclistica, motore e batteria, prodotti preferiti, tagliandi, guasti e problemi"
     },
     en: {
       "meta.title": "My Bike Garage | Hope & Trust",
@@ -227,11 +226,10 @@
       "footer.privacy": "Privacy Policy",
       "lightbox.label": "Enlarged screenshot",
       "lightbox.close": "Close",
-      "shots.garage": "Garage screen: the Raymon Trailray 150 bike, e-bike, with 50 km and status On the road",
-      "shots.riepilogo": "Summary screen: expenses by type, total 280 euro, and distance ridden 50 km",
-      "shots.spese": "Expenses screen: inner tube, bike insurance, helmet, and saddle",
-      "shots.pneumatici": "Tires screen: Vittoria Mazza Enduro, size 29 by 2.4, 50 km, in use",
-      "shots.officina": "Workshop screen: torque settings, suspension, services, motor and battery, favorite products, faults and problems"
+      "shots.garage": "Garage screen: the Raymon Trailray 150 bike, e-bike, with 401 km and status On the road",
+      "shots.riepilogo": "Summary screen: expenses by type, total 440.78 euro, and distance ridden 401 km",
+      "shots.spese": "Expenses screen: Magic tire step, SPD pedals, latex syringe, sealant, and pump adapter",
+      "shots.officina": "Workshop screen: torque settings, suspension, drivetrain, motor and battery, favorite products, services, faults and problems"
     },
     de: {
       "meta.title": "My Bike Garage | Hope & Trust",
@@ -328,11 +326,10 @@
       "footer.privacy": "Datenschutzerklärung",
       "lightbox.label": "Vergrößerter Screenshot",
       "lightbox.close": "Schließen",
-      "shots.garage": "Bildschirm Garage: das Fahrrad Raymon Trailray 150, E-Bike, mit 50 km und Status Unterwegs",
-      "shots.riepilogo": "Bildschirm Übersicht: Ausgaben nach Art, insgesamt 280 Euro und zurückgelegte Strecke 50 km",
-      "shots.spese": "Bildschirm Ausgaben: Schlauch, Fahrradversicherung, Helm und Sattel",
-      "shots.pneumatici": "Bildschirm Reifen: Vittoria Mazza Enduro, Größe 29 mal 2,4, 50 km, in Verwendung",
-      "shots.officina": "Bildschirm Werkstatt: Anzugsdrehmomente, Federungen, Inspektionen, Motor und Akku, bevorzugte Produkte, Defekte und Probleme"
+      "shots.garage": "Bildschirm Garage: das Fahrrad Raymon Trailray 150, E-Bike, mit 401 km und Status Unterwegs",
+      "shots.riepilogo": "Bildschirm Übersicht: Ausgaben nach Art, insgesamt 440,78 Euro und zurückgelegte Strecke 401 km",
+      "shots.spese": "Bildschirm Ausgaben: Magic-Reifenstep, SPD-Pedale, Latexspritze, Dichtmittel und Pumpenadapter",
+      "shots.officina": "Bildschirm Werkstatt: Anzugsdrehmomente, Federungen, Antrieb, Motor und Akku, bevorzugte Produkte, Inspektionen, Defekte und Probleme"
     },
     es: {
       "meta.title": "My Bike Garage | Hope & Trust",
@@ -429,11 +426,10 @@
       "footer.privacy": "Política de privacidad",
       "lightbox.label": "Captura ampliada",
       "lightbox.close": "Cerrar",
-      "shots.garage": "Pantalla Garaje: la bici Raymon Trailray 150, e-bike, con 50 km y estado En ruta",
-      "shots.riepilogo": "Pantalla Resumen: gastos por tipo, total 280 euros y distancia recorrida 50 km",
-      "shots.spese": "Pantalla Gastos: cámara de aire, seguro de la bici, casco y sillín",
-      "shots.pneumatici": "Pantalla Neumáticos: Vittoria Mazza Enduro, medida 29 por 2,4, 50 km, en uso",
-      "shots.officina": "Pantalla Taller: pares de apriete, suspensiones, revisiones, motor y batería, productos favoritos, averías y problemas"
+      "shots.garage": "Pantalla Garaje: la bici Raymon Trailray 150, e-bike, con 401 km y estado En ruta",
+      "shots.riepilogo": "Pantalla Resumen: gastos por tipo, total 440,78 euros y distancia recorrida 401 km",
+      "shots.spese": "Pantalla Gastos: step de cubiertas Magic, pedales SPD, jeringa de látex, líquido antipinchazos y adaptador de bomba",
+      "shots.officina": "Pantalla Taller: pares de apriete, suspensiones, transmisión, motor y batería, productos favoritos, revisiones, averías y problemas"
     },
     fr: {
       "meta.title": "My Bike Garage | Hope & Trust",
@@ -530,11 +526,10 @@
       "footer.privacy": "Politique de confidentialité",
       "lightbox.label": "Capture agrandie",
       "lightbox.close": "Fermer",
-      "shots.garage": "Écran Garage : le vélo Raymon Trailray 150, vélo électrique, avec 50 km et l’état Sur la route",
-      "shots.riepilogo": "Écran Récapitulatif : dépenses par type, total 280 euros et distance parcourue 50 km",
-      "shots.spese": "Écran Dépenses : chambre à air, assurance vélo, casque et selle",
-      "shots.pneumatici": "Écran Pneus : Vittoria Mazza Enduro, dimension 29 par 2,4, 50 km, en cours d’utilisation",
-      "shots.officina": "Écran Atelier : couples de serrage, suspensions, révisions, moteur et batterie, produits favoris, pannes et problèmes"
+      "shots.garage": "Écran Garage : le vélo Raymon Trailray 150, vélo électrique, avec 401 km et l’état Sur la route",
+      "shots.riepilogo": "Écran Récapitulatif : dépenses par type, total 440,78 euros et distance parcourue 401 km",
+      "shots.spese": "Écran Dépenses : step pneus Magic, pédales SPD, seringue à latex, liquide anti-crevaison et adaptateur de pompe",
+      "shots.officina": "Écran Atelier : couples de serrage, suspensions, transmission, moteur et batterie, produits favoris, révisions, pannes et problèmes"
     },
     pt: {
       "meta.title": "My Bike Garage | Hope & Trust",
@@ -631,11 +626,10 @@
       "footer.privacy": "Política de privacidade",
       "lightbox.label": "Captura ampliada",
       "lightbox.close": "Fechar",
-      "shots.garage": "Ecrã Garagem: a bicicleta Raymon Trailray 150, e-bike, com 50 km e estado Em estrada",
-      "shots.riepilogo": "Ecrã Resumo: despesas por tipo, total de 280 euros e distância percorrida de 50 km",
-      "shots.spese": "Ecrã Despesas: câmara-de-ar, seguro da bicicleta, capacete e selim",
-      "shots.pneumatici": "Ecrã Pneus: Vittoria Mazza Enduro, medida 29 por 2,4, 50 km, em uso",
-      "shots.officina": "Ecrã Oficina: binários de aperto, suspensões, revisões, motor e bateria, produtos favoritos, avarias e problemas"
+      "shots.garage": "Ecrã Garagem: a bicicleta Raymon Trailray 150, e-bike, com 401 km e estado Em estrada",
+      "shots.riepilogo": "Ecrã Resumo: despesas por tipo, total de 440,78 euros e distância percorrida de 401 km",
+      "shots.spese": "Ecrã Despesas: step de pneus Magic, pedais SPD, seringa de látex, líquido antipunção e adaptador de bomba",
+      "shots.officina": "Ecrã Oficina: binários de aperto, suspensões, transmissão, motor e bateria, produtos favoritos, revisões, avarias e problemas"
     }
   };
 

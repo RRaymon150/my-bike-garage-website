@@ -16,34 +16,28 @@ window.SITE = {
   email: "hopeandtrust.dev@gmail.com",
   screenshots: [
     {
-      src: "assets/images/screenshots/garage.png",
-      alt: "Schermata Garage: la bici Raymon Trailray 150, E-bike, con 50 Km e stato In strada",
-      width: 804,
-      height: 1748
+      src: "assets/images/screenshots/garage.jpg",
+      alt: "Schermata Garage: la bici Raymon Trailray 150, E-bike, con 401 Km e stato In strada",
+      width: 485,
+      height: 1024
     },
     {
-      src: "assets/images/screenshots/riepilogo.png",
-      alt: "Schermata Riepilogo: spese per tipologia, totale 280 euro e distanza percorsa 50 Km",
-      width: 804,
-      height: 1748
+      src: "assets/images/screenshots/riepilogo.jpg",
+      alt: "Schermata Riepilogo: spese per tipologia, totale 440,78 euro e distanza percorsa 401 Km",
+      width: 485,
+      height: 1024
     },
     {
-      src: "assets/images/screenshots/spese.png",
-      alt: "Schermata Spese: camera d'aria, polizza bici, casco e sellino",
-      width: 804,
-      height: 1748
+      src: "assets/images/screenshots/spese.jpg",
+      alt: "Schermata Spese: step gomme Magic, pedali SPD, siringa per lattice, liquido antiforatura e adattatore pompa",
+      width: 485,
+      height: 1024
     },
     {
-      src: "assets/images/screenshots/pneumatici.png",
-      alt: "Schermata Pneumatici: Vittoria Mazza Enduro, dimensione 29 per 2.4, 50 Km, in uso",
-      width: 804,
-      height: 1748
-    },
-    {
-      src: "assets/images/screenshots/officina.png",
-      alt: "Schermata Officina: coppie di serraggio, sospensioni, tagliandi, motore e batteria, prodotti preferiti, guasti e problemi",
-      width: 804,
-      height: 1748
+      src: "assets/images/screenshots/officina.jpg",
+      alt: "Schermata Officina: coppie di serraggio, sospensioni, ciclistica, motore e batteria, prodotti preferiti, tagliandi, guasti e problemi",
+      width: 485,
+      height: 1024
     }
   ],
 };
