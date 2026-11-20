@@ -61,4 +61,4 @@ Prima di aggiungerle, riduci il lato lungo a circa 1200 pixel e salva in JPEG o 
 
 ## Prova gratuita
 
-Sul sito la prova è di 3 giorni, cioè 72 ore dall’attivazione. Continua anche se l’app non viene usata e non è rinnovabile.
+Sul sito la prova è di 7 giorni dall’attivazione. Continua anche se l’app non viene usata e non è rinnovabile.
