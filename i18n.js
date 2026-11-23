@@ -917,13 +917,44 @@
       }
     });
 
-    list.addEventListener("click", function (event) {
-      var choice = event.target.closest("[data-set-lang]");
+    function choiceFromEvent(event) {
+      var node = event.target;
+      if (!node) {
+        return null;
+      }
+      // Safari assegna il click al nodo di testo dentro il pulsante.
+      // Quel nodo non ha closest(): la scelta si interrompeva e la pagina restava nella lingua già attiva.
+      if (node.nodeType !== 1) {
+        node = node.parentElement;
+      }
+      if (!node || typeof node.closest !== "function") {
+        return null;
+      }
+      return node.closest("[data-set-lang]");
+    }
+
+    function selectChoice(choice) {
       if (!choice) {
         return;
       }
       setLang(choice.getAttribute("data-set-lang"), true);
       closeLang(true);
+    }
+
+    list.addEventListener("pointerdown", function (event) {
+      if (event.pointerType === "mouse" && event.button !== 0) {
+        return;
+      }
+      var choice = choiceFromEvent(event);
+      if (!choice) {
+        return;
+      }
+      event.preventDefault();
+      selectChoice(choice);
+    });
+
+    list.addEventListener("click", function (event) {
+      selectChoice(choiceFromEvent(event));
     });
 
     list.addEventListener("keydown", function (event) {
