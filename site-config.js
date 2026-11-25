@@ -18,7 +18,7 @@ window.SITE = {
     {
       src: "assets/images/screenshots/garage.jpg",
       alt: "Schermata Garage: la bici Raymon Trailray 150, E-bike, con 401 Km e stato In strada",
-      width: 485,
+      width: 470,
       height: 1024
     },
     {
@@ -36,7 +36,7 @@ window.SITE = {
     {
       src: "assets/images/screenshots/officina.jpg",
       alt: "Schermata Officina: coppie di serraggio, sospensioni, ciclistica, motore e batteria, prodotti preferiti, tagliandi, guasti e problemi",
-      width: 485,
+      width: 470,
       height: 1024
     }
   ],
